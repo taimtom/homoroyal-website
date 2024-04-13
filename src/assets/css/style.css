@@ -1,0 +1,9 @@
+.text-gradient-blue-white{
+    
+    color: -webkit-linear-gradient( 135deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+    color: -moz-linear-gradient( 135deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+    color: -ms-linear-gradient( 135deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+    color: -o-linear-gradient( 135deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+    color: linear-gradient( 135deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+    color: linear-gradient(to left top, blue, red);
+}

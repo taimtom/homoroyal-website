@@ -2,7 +2,7 @@ import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import { Container, Row, Col } from 'reactstrap';
 
-const HeaderBanner = () => {
+const HeaderBanner3 = () => {
     return (
         <div className="static-slider-head banner-backgroud-image" >
             <Container>
@@ -21,4 +21,4 @@ civil structures, roads, and infrastructure<br /> Beautiful Pre-Built Demos</h4>
     );
 }
 
-export default HeaderBanner;
+export default HeaderBanner3;

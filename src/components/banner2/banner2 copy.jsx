@@ -7,20 +7,20 @@ import bannerImage from "../../assets/images/me-img/scrapper-con-img.jpeg"
 
 const HeaderBanner2 = () => {
     return (
-        <div className="static-slider-head banner-backgroud-color ">
+        <div className="static-slider-head banner2">
             <Container>
                 <Row >
                     <Col lg="6" md="6" >
-                        <h1 className="title">Homoroyal</h1>
+                        <h1 className="title">Wrapkit Lite</h1>
                         <h4 className="subtitle font-light">Free Reactstrap UI Kit with<br /> Lots of Ready to Use Sections</h4>
                         <a href="https://wrappixel.com/templates/wrapkit-react-lite/" className="btn btn-outline-light m-r-20 btn-md m-t-30 font-14">Download Free</a>
                         <Link to="/#coming" className="btn btn-md m-t-30 btn-info-gradiant font-14">Upgrade To Pro</Link>
                     </Col>
-                    <Col lg="6" md="6" className='banner-backgroud-image' >
-                        {/* <h1 className="title">Wrapkit Lite</h1>
+                    <Col lg="6" md="6" >
+                        <h1 className="title">Wrapkit Lite</h1>
                         <h4 className="subtitle font-light">Free Reactstrap UI Kit with<br /> Lots of Ready to Use Sections</h4>
                         <a href="https://wrappixel.com/templates/wrapkit-react-lite/" className="btn btn-outline-light m-r-20 btn-md m-t-30 font-14">Download Free</a>
-                        <Link to="/#coming" className="btn btn-md m-t-30 btn-info-gradiant font-14">Upgrade To Pro</Link> */}
+                        <Link to="/#coming" className="btn btn-md m-t-30 btn-info-gradiant font-14">Upgrade To Pro</Link>
                     </Col>
                 </Row>
             </Container>

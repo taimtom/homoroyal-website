@@ -71,6 +71,16 @@ Header 6
     }
 }
 
+.banner-backgroud-image{
+// background-color: #000;
+background-image: $banner-image;
+// filter: brightness(10%);
+}
+.banner-backgroud-color{
+    background-color: #0e0f11// #1b1a4e;
+
+    // filter: brightness(10%);
+    }
 .static-slider-head {
     min-height: 600px;
     display: flex;
@@ -79,12 +89,16 @@ Header 6
     overflow: auto;
     background-size: cover;
     background-position: center center;
-    background-image: $banner-image;
+    
+    
 
+    
     .title {
         font-weight: 700;
         font-size: 70px;
         line-height: 100px;
+        color: #fff;
+        filter: brightness(100%);
     }
 
     .subtitle {

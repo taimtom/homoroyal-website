@@ -21,6 +21,10 @@ import TooltipPopover from "./sections/tooltip-popover.jsx";
 import Typography from "./sections/typography.jsx";
 import JsComponents from "./sections/js-components.jsx";
 import CallToAction from "../../components/call-to-action/CallToAction"
+import HeaderBanner2 from "../../components/banner2/banner2.jsx";
+import HeaderBanner3 from "../../components/banner/banner3.jsx";
+import Mission from "../wcomponents/mission.jsx";
+
 
 
 const Components = () => {
@@ -29,7 +33,10 @@ const Components = () => {
             <Header />
             <div className="page-wrapper">
                 <div className="container-fluid">
-                    <HeaderBanner />
+                    {/* <HeaderBanner3 /> */}
+                    <HeaderBanner2 />
+                    {/* <HeaderBanner /> */}
+                    <Mission />
                     <Buttons />
                     <Labels />
                     <PagePagination />

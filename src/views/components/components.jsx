@@ -24,6 +24,9 @@ import CallToAction from "../../components/call-to-action/CallToAction"
 import HeaderBanner2 from "../../components/banner2/banner2.jsx";
 import HeaderBanner3 from "../../components/banner/banner3.jsx";
 import Mission from "../wcomponents/mission.jsx";
+import Projects from "../wcomponents/projects.jsx";
+import Feedback from "../wcomponents/feedback.jsx";
+import HeaderBannerSection from "../wcomponents/header-section.jsx";
 
 
 
@@ -33,14 +36,18 @@ const Components = () => {
             <Header />
             <div className="page-wrapper">
                 <div className="container-fluid">
+                <HeaderBannerSection />
+                {/* <Header /> */}
                     {/* <HeaderBanner3 /> */}
-                    <HeaderBanner2 />
+                    {/* <HeaderBanner2 /> */}
                     {/* <HeaderBanner /> */}
                     <Mission />
-                    <Buttons />
+                    <Projects />
+                    <Feedback />
+                    {/* <Buttons />
                     <Labels />
                     <PagePagination />
-                    <Images />
+                    
                     <Breadcrumbs />
                     <Cards />
                     <Dropdowns />
@@ -49,8 +56,8 @@ const Components = () => {
                     <Notification />
                     <TooltipPopover />
                     <Typography />
-                    <JsComponents />
-                    <CallToAction />
+                    */}
+                    {/* <CallToAction /> */}
                 </div>
             </div>
             <Footer />

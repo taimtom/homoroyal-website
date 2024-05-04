@@ -77,7 +77,7 @@ background-image: $banner-image;
 // filter: brightness(10%);
 }
 .banner-backgroud-color{
-    background-color: #0e0f11// #1b1a4e;
+    background-color: $white//#0e0f11// #1b1a4e;
 
     // filter: brightness(10%);
     }
@@ -97,12 +97,13 @@ background-image: $banner-image;
         font-weight: 700;
         font-size: 70px;
         line-height: 100px;
-        color: #fff;
-        filter: brightness(100%);
+        color: #0e0f11// #fff;
+        
     }
 
     .subtitle {
         line-height: 30px;
+        color:#0e0f11
 
     }
 }
@@ -161,7 +162,8 @@ Spacer
 *******************/
 
 .spacer {
-    padding: 90px 0;
+    padding-top: 100px;
+    padding-bottom: 20px;
 }
 
 .mini-spacer {
@@ -1548,12 +1550,17 @@ common-innerpage-banner
 Footer 4
 *******************/
 .footer4 {
+    background-color: #1b1a4e;
+    a{
+        color: $white;
+    }
     .f4-bottom-bar {
         padding-top: 10px;
         margin-top: 20px;
+       
 
         a {
-            color: $bodytext;
+            color: $white;
 
             &:hover {
                 color: $info;

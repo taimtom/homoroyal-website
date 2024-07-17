@@ -108,8 +108,8 @@ const HeaderBannerSection = (props) => {
                
             </div>
             <Container>
-                <Row className="m-b-40">
-                    <Col md="6" className='d-flex flex-column '>
+                <Row className="m-b-40 ">
+                    <Col lg="6" md="12" className='d-flex flex-column banner-homoroyal-text '>
                     <h1 className="title" style={{fontWeight: 700,
         fontSize: "70px",
         lineHeight: "100px",
@@ -121,7 +121,7 @@ of the Homoroyal Group</h4>
                         <Link to="/#coming" className="btn btn-md m-t-30 btn-info-gradiant font-14">Request Quote</Link>
                         </div>
                     </Col>
-                    <Col md="6" className='mini-screen-spacer'>
+                    <Col md="6" lg="12" className='mini-screen-spacer'>
                         <Carousel
                             activeIndex={activeIndex}
                             next={next.bind(null)}

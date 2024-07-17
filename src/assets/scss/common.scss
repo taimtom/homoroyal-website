@@ -16,7 +16,11 @@ Topbar
     width: 100%;
     position: absolute;
     z-index: 20;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 80px;
 }
+
 
 /*******************
 Header 6
@@ -29,6 +33,24 @@ Header 6
     .navbar-brand {
         line-height: 80px;
     }
+    .banner-homoroyal-text{
+        justify-content: center;
+    }
+}
+.header-nav-links-list {
+    display: flex;
+    margin-top: 50px;
+li{
+    
+    list-style-type: none; 
+    padding: 0px 10px;
+    cursor: pointer;
+
+    :hover{
+        background-color: #1b1a4e;
+        border-radius: 16px;
+    }
+}
 }
 
 .h6-nav-bar {

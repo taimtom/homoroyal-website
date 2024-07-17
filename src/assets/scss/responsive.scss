@@ -128,6 +128,7 @@ File: scss
     .topbar{
         background: $themecolor; 
         position: relative;
+        display: block;
         &.animated{
             animation-duration:0s;
             &.slideInDown{
@@ -137,6 +138,24 @@ File: scss
         }
     }
     
+    .header-nav-links-list{
+
+        list-style-type: none; 
+        padding: 0px 130px;
+        display: block;
+        
+        li{
+            padding: 10px;
+            display: block;
+        }
+        li:hover{
+            background-color: rgb(7, 46, 85);
+            cursor: pointer;
+            
+        }
+    }
+    
+        
 }
 
 

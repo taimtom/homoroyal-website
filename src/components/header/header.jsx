@@ -20,11 +20,25 @@ const Header = () => {
                 <Container className="po-relative">
                     <Navbar className="navbar-expand-lg h6-nav-bar">
                         <NavbarBrand href="/"><img src={logo} alt="homoroyal" style={{width:"150px"}} /></NavbarBrand>
-                        <NavbarToggler onClick={toggle}><span className="ti-menu"></span></NavbarToggler>
+                        <NavbarToggler onClick={toggle}><span className={isOpen?"ti-close":"ti-menu"}></span></NavbarToggler>
+
+                        
                         
                     </Navbar>
                 </Container>
+                
             </div>
+            {isOpen &&<div>
+                <ul className='header-nav-links-list'>
+                    <li>Home</li>
+                    <li>Blog</li>
+                    <li>Videos</li>
+                    <li>FAQ</li>
+                    <li>Contact Us</li>
+                    <li>About</li>
+                    <li>Request Quote</li>
+                </ul>
+                </div>}
         </div>
     );
 
